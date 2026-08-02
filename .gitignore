@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Generated data and model artifacts
+data/raw/
+data/cleaned/
+data/encoded/
+data/tokenizer/*.model
+data/tokenizer/*.vocab
+checkpoints/
+*.pt
+*.pt.tmp
+
+# Local duplicates and archives
+copy/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
